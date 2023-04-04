@@ -1,4 +1,4 @@
-package com.example.group3_finalproject;
+package com.pro.group3_finalproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
