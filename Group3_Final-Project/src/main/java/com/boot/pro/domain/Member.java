@@ -1,4 +1,4 @@
-package org.example.domain;
+package com.boot.pro.domain;
 
 
 import lombok.Getter;
@@ -15,7 +15,8 @@ import java.time.LocalDate;
 public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long mem_num;
+    @Column(name = "mem_num")
+    private Long id;
     private String mem_id;
     private String mem_pw;
     private String mem_name;

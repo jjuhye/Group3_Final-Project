@@ -1,4 +1,4 @@
-package org.example.domain;
+package com.boot.pro.domain;
 
 import lombok.Getter;
 import lombok.Setter;
